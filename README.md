@@ -1,10 +1,12 @@
-# Blueberryjam — Landing Page
+# BlueBerryJam — Landing Page
 
-Landingspagina voor Blueberryjam: persoonlijke AI Governance praktijk. De funnel: **gratis Quickscan → Deepdive → 90 dagen uitvoering → Quarterly Governance Partnership**, met het Vibe Café als instapervaring.
+Landingspagina voor BlueBerryJam: persoonlijke AI Governance praktijk. De funnel: **gratis Quickscan → Deepdive → 90 dagen uitvoering → Quarterly Governance Partnership**, met het Vibe Café als instapervaring.
+
+Visueel gebouwd op het **BlueBerryJam design system** (Claude Design handoff bundle): navy `#263450` + jam-magenta `#e1017a`, Bricolage Grotesque / Plus Jakarta Sans / JetBrains Mono, Lucide icons, lichte secties afgewisseld met navy "night" banden en één jam-gradient CTA-band.
 
 ## Stack
 
-Eén zelfstandig `index.html` bestand — geen build step, geen dependencies. HTML + CSS + een paar regels vanilla JS voor scroll-animaties. Fonts via Google Fonts (Inter + Space Grotesk).
+Eén `index.html` plus de logo-assets in `assets/` — geen build step. HTML + CSS + een paar regels vanilla JS (sticky nav, scroll-animaties, Lucide icons via CDN). Fonts via Google Fonts.
 
 ## Lokaal bekijken
 
